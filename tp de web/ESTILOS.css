@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    padding: 15px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 100px;
+}
+nav > a {
+    text-decoration: none;
+    color: black;
+  
+}
+div{
+    padding: 15px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 100px;
+}
+div > a{
+    text-decoration: none;
+    color: black;
+      
+}
+a:hover {
+    scale: 1.1;
+    transition: all 500ms;
+}
+p {
+    padding: 10px;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/hd/775b7153880035.5b0daa7e8855c.png);
+    background-repeat: no-repeat;
+    /* se ponga a la iquierda o derecha */
+    background-position:top left ;
+    /* ocupe toda la etiqueta*/
+    background-size:100% 100%;
+    /* crea como una ventanilla que hace q se mueva la imagen */
+    background-attachment: fixed;
+    color: blue;
+}
+#brawlers{
+    padding: 15px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: left;
+    gap: 25px;
+    height: 100px;
+    margin: 10px;
+}
+img{
+    height: 75px;
+}
